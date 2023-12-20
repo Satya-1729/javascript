@@ -46,8 +46,7 @@ console.log("&& or and ", a>b && a == (a+"3"))
 console.log("|| or OR ", a>b || a == 6)
 console.log(!false)
 console.log(!true)
-let Switch = false;
-// Switch = false ;
+
 /* 
 this is a multiline comments
 it is used for bigger comments */
