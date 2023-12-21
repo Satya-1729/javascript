@@ -50,3 +50,22 @@ switch (a){
         
     
 }
+// write a program that will show is the number divisible by 2 and 3 both 
+let a = Number.parseInt(prompt("Enter the number: "))
+if (a %2 == 0 && a%3 == 0){
+    console.log("your given number",a ,"is divisible by 2 and 3 both")
+}
+else{
+    console.log("it is not divisible by 2 and 3 both")
+}
+// write a program that will show is the number divisible either by 2 or 3 or both 
+let a = Number.parseInt(prompt("Enter the number: "))
+if (a %2 == 0 || a%3 == 0){
+    console.log("your given number",a ,"is divisible by either 2 or 3 or both")
+}
+else{
+    console.log("it is not divisible by either 2 or 3 or both")
+}
+// using ternary operator print you can drive or you cant if your at the age group below or greater than 18
+let a = Number.parseInt(prompt("enter the number : "))
+console.log("you can", a>=18? "drive the car" : "not drive the car ")
