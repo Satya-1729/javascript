@@ -40,3 +40,6 @@ switch (b){
         
 
 }
+// its all about ternary operator
+let a = Number.parseInt(prompt("enter the value of a "))
+console.log("you can ",a>0?"you are printable":"else you are not")
