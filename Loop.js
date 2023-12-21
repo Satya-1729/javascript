@@ -35,3 +35,9 @@ for (x in a){
 for(i of "satya"){
     console.log(i)
 }
+// while loop
+let i=0;
+while(i<10){
+    console.log(i)
+    i++;//this condition must be given to terminate the program or else it will crash your pc 
+}
