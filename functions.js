@@ -10,4 +10,10 @@ function avg(a,b){
 }
 console.log("Average of two numbers",avg(8,10))
 
+let yo =() =>{
+    console.log(p + q)
+}
+t= yo(3,4)
+console.log(t)
+
 
