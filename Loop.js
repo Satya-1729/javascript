@@ -27,6 +27,7 @@ const a = {
     ajay_gour:95
 }
 console.log(a["satya"])
+console.table(a)
 for (x in a){
     console.log(x + " marks " + a[x])
 }
