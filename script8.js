@@ -6,3 +6,5 @@ m.style.color = "blue"
 console.log(m)
 let  ctitle = document.getElementsByClassName("card-title")[0]
 // ctitle.style.color="red"
+let k = document.getElementsByName("heading")
+console.log(k)
