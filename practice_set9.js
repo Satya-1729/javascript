@@ -72,7 +72,6 @@ const main12 = async ()=>{
     console.log(abc)
     console.log(new Date().getMilliseconds())
 }
-console.log(main12())
+main12()
 
-let q = Promise.allSettled([p1,p2,p3])
-console.log(q)
+
