@@ -50,3 +50,11 @@ let u =arr.slice(3)
 console.log(u)
 let y = arr.slice(4,7)
 console.log(y)
+
+let myArray = [
+    { name: 'John', age: 30 },
+    { name: 'Jane', age: 25 },
+    { name: 'Alice', age: 35 }
+];
+console.log(myArray[0].name); // Output: John
+console.log(myArray[1].age); // Output: 25
