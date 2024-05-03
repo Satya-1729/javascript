@@ -6,3 +6,4 @@ p.then((value1)=>{
 }).then((value)=>{
     console.log(value)
 })
+// let p = fetch("n")
