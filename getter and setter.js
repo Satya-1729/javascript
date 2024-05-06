@@ -27,8 +27,8 @@ class employee{
 }
 
 let emp1 = new employee("rishi sahu","ninetylakhninetythousandninehundredninentynine")
-emp1.name = "rishi sahu"
-emp1.empId = "nnetyonelakh"
+emp1.name = "rishi sahu" // we set the namer and other things like this 
+emp1.empId = "nnetyonelakh"// we set the namer and other things like this 
 emp1.About()
 console.log(emp1.name)
 
