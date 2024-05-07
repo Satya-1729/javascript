@@ -4,6 +4,14 @@ for (let i =0;i<a.length;i++){
     console.log(a[i])
     
 }
+let a = ["satya", "soni", 56, 34, 54, 5, null, false];
+for (let i = 0; i < a.length; i++) {
+    if (typeof a[i] === 'string') {
+        console.log(a[i].toUpperCase());
+    } else {
+        console.log(a[i]);
+    }
+}
 a[8] = 54 //like this we can add anything in an array
 a[1] = "AIML branch is so good"// we can also replace the elements of array
 console.log(a)
@@ -27,7 +35,7 @@ console.log(a,k,a.length)
 let arr = [1,43,5434,655,7,234,67,892,45]
 delete arr[5]// while using delete it delete the given element but doesnt change the length of the array
 console.log(arr)
-let new_arr = [34,23,123,5,78,089,34]
+let new_arr = [34,23,123,5,78,89,34]
 let b = arr.concat(arr)//doesnt change the new array or old array
 console.log(b)
 
